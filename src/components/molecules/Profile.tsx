@@ -6,7 +6,7 @@ import ScrollLayout from "../atoms/ScrollLayout";
 
 const Profile = () => {
   return (
-    <ScrollLayout classList="z-10 bg-yellow-100 h-[150vh] grid place-items-center">
+    <ScrollLayout classList="z-10 bg-[--background-color] h-[150vh] grid place-items-center">
       PROFILE
     </ScrollLayout>
   );
