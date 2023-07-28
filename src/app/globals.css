@@ -2,10 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+  background-color: var(--background-color);
+  color: var(--platinum-color);
+} */
+
 :root {
+  --background-color: #151515;
+  --light-text-color: #ffffff;
+  --platinum-color: #e5e4e2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --background-color: #151515;
   }
 }
+
+/* 
+As a MERN stack developer, you might want to choose a color theme that reflects the modern and tech-oriented nature of your work while also ensuring a professional and visually appealing presentation. Here are some color themes that could be a good fit for a MERN stack developer's portfolio:
+
+1. **Tech Blue and White**: Use shades of blue (e.g., #007BFF, #2196F3) as the primary color, combined with white (#FFFFFF) as the background color. Blue is often associated with technology and trust, making it a popular choice for developers' portfolios.
+
+2. **Dark Mode with Accent Color**: Consider a dark mode theme (dark background with light text) for a modern and sleek look. Add an accent color (e.g., #FF5722 or #FF9800) to highlight buttons and other important elements.
+
+3. **Green and Black**: Use a combination of green (#4CAF50) and black (#000000) to create a tech-inspired and stylish color scheme. Green can symbolize growth, which is relevant to your role as a developer.
+
+4. **Material Design Colors**: Check out Google's Material Design color palette, which offers a range of harmonious colors designed specifically for modern web interfaces. You can find these colors easily by searching for "Material Design colors."
+
+5. **Monochromatic Blue**: Stick with various shades of blue to create a monochromatic color scheme. Mix lighter and darker blues to create depth and interest while keeping the overall theme consistent.
+
+6. **Gradient Theme**: Experiment with gradients that blend complementary colors smoothly. Gradients add a modern touch to your portfolio and can make it stand out.
+
+7. **Minimalistic Black and White**: If you prefer a clean and minimalistic approach, go with a black (#000000) and white (#FFFFFF) color scheme. Add a single accent color (e.g., red or blue) to make key elements pop.
+
+Remember, the key is to choose a color theme that aligns with your personal preferences and style while maintaining a professional and user-friendly presentation. Make sure that the chosen colors do not clash with readability and accessibility, and don't forget to test your portfolio across different devices to ensure a consistent and visually pleasing experience for all users. */
