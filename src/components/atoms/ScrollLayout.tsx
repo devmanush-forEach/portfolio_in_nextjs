@@ -1,14 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { getCombinedNodeFlags } from "typescript";
 
-const ScrollLayout = ({
-  children,
-  classList,
-}: {
-  children: any;
-  classList?: string;
-}) => {
+const ScrollLayout = ({ children, classList, id}: { children: any; classList?: string;id :string }) => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
   const parentRef = useRef<any>();
@@ -26,11 +19,10 @@ const ScrollLayout = ({
     });
   }, []);
   return (
-    <div ref={parentRef} className="h-[150vh] w-[100vw]">
+    <div id={`${id}`} ref={parentRef} className="h-[150vh] w-[100vw]">
       <section
-        className={`${
-          isScrolled ? " fixed bottom-0 right-0 left-0 " : " relative "
-        }   min-w-[100vw] ${classList} `}
+        className={`${isScrolled ? " fixed bottom-0 right-0 left-0 " : " relative "
+          }   min-w-[100vw] ${classList} `}
       >
         {children}
       </section>

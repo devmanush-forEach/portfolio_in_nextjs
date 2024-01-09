@@ -3,7 +3,7 @@ import ScrollLayout from "../atoms/ScrollLayout";
 
 const Education = () => {
   return (
-    <ScrollLayout classList="z-10 bg-blue-500 h-[150vh] grid place-items-center">
+    <ScrollLayout id="educationSection" classList="z-10 bg-blue-500 h-[150vh] grid place-items-center">
       EDUCATION
     </ScrollLayout>
   );
