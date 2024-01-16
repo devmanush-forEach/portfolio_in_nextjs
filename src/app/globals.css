@@ -19,6 +19,13 @@
     --background-color: #151515;
   }
 }
+.firaSans {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
 
 /* 
 As a MERN stack developer, you might want to choose a color theme that reflects the modern and tech-oriented nature of your work while also ensuring a professional and visually appealing presentation. Here are some color themes that could be a good fit for a MERN stack developer's portfolio:

@@ -19,10 +19,11 @@ const ScrollLayout = ({ children, classList, id}: { children: any; classList?: s
     });
   }, []);
   return (
-    <div id={`${id}`} ref={parentRef} className="h-[150vh] w-[100vw]">
+    <div id={`${id}`} ref={parentRef} className="min-h-[100vh] w-full">
       <section
-        className={`${isScrolled ? " fixed bottom-0 right-0 left-0 " : " relative "
-          }   min-w-[100vw] ${classList} `}
+        className={`${
+          isScrolled ? " fixed bottom-0 right-0 left-0 " : " relative "
+        }   min-w-full ${classList} `}
       >
         {children}
       </section>
